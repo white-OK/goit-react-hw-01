@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 650px;
+}
+
+.image {
+    border-radius: 50%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.username {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-bottom: 35px;
+}
+
+.usertag {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.list {
+    display: flex;
+    background-color: lightgray;
+    border-radius: 0 0 17px 17px;
+    border-top: 3px solid gray;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    padding: 30px 0;
+
+}
+
+.item:not(:last-child) {
+    border-right: 3px solid gray;
+}
+
+.itemtitle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.itemlikes {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: black;
+}
